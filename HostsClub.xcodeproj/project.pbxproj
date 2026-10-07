@@ -1,0 +1,757 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DAF4E3333076C21700467F8D /* HostsClubCore in Frameworks */ = {isa = PBXBuildFile; productRef = DAF4E3323076C21700467F8D /* HostsClubCore */; };
+		DAF4E3403076C46D00467F8D /* HostsClubCore in Frameworks */ = {isa = PBXBuildFile; productRef = DAF4E33F3076C46D00467F8D /* HostsClubCore */; };
+		DAF4E3433076C4D200467F8D /* ArgumentParser in Frameworks */ = {isa = PBXBuildFile; productRef = DAF4E3423076C4D200467F8D /* ArgumentParser */; };
+		DAF4E34D3076C7A700467F8D /* hostsclub-cli in Embed CLI */ = {isa = PBXBuildFile; fileRef = DAF4E3383076C3F900467F8D /* hostsclub-cli */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DA8BB71C3076BF9F000408B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA8BB7063076BF9E000408B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA8BB70D3076BF9E000408B8;
+			remoteInfo = HostsClub;
+		};
+		DA8BB7263076BF9F000408B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA8BB7063076BF9E000408B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA8BB70D3076BF9E000408B8;
+			remoteInfo = HostsClub;
+		};
+		DAF4E3493076C66600467F8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA8BB7063076BF9E000408B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAF4E3373076C3F900467F8D;
+			remoteInfo = HostsClubCLI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DAF4E3363076C3F900467F8D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		DAF4E34C3076C78100467F8D /* Embed CLI */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 6;
+			files = (
+				DAF4E34D3076C7A700467F8D /* hostsclub-cli in Embed CLI */,
+			);
+			name = "Embed CLI";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DA8BB70E3076BF9E000408B8 /* HostsClub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HostsClub.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA8BB71B3076BF9F000408B8 /* HostsClubTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HostsClubTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA8BB7253076BF9F000408B8 /* HostsClubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HostsClubUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAF4E3303076C11600467F8D /* HostsClubCore */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = HostsClubCore; sourceTree = "<group>"; };
+		DAF4E3383076C3F900467F8D /* hostsclub-cli */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "hostsclub-cli"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		DA8BB7103076BF9E000408B8 /* HostsClub */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = HostsClub;
+			sourceTree = "<group>";
+		};
+		DA8BB71E3076BF9F000408B8 /* HostsClubTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = HostsClubTests;
+			sourceTree = "<group>";
+		};
+		DA8BB7283076BF9F000408B8 /* HostsClubUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = HostsClubUITests;
+			sourceTree = "<group>";
+		};
+		DAF4E3393076C3F900467F8D /* HostsClubCLI */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = HostsClubCLI;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA8BB70B3076BF9E000408B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAF4E3333076C21700467F8D /* HostsClubCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA8BB7183076BF9F000408B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA8BB7223076BF9F000408B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAF4E3353076C3F900467F8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAF4E3433076C4D200467F8D /* ArgumentParser in Frameworks */,
+				DAF4E3403076C46D00467F8D /* HostsClubCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA8BB7053076BF9E000408B8 = {
+			isa = PBXGroup;
+			children = (
+				DAF4E3303076C11600467F8D /* HostsClubCore */,
+				DA8BB7103076BF9E000408B8 /* HostsClub */,
+				DA8BB71E3076BF9F000408B8 /* HostsClubTests */,
+				DA8BB7283076BF9F000408B8 /* HostsClubUITests */,
+				DAF4E3393076C3F900467F8D /* HostsClubCLI */,
+				DAF4E3313076C21700467F8D /* Frameworks */,
+				DA8BB70F3076BF9E000408B8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA8BB70F3076BF9E000408B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA8BB70E3076BF9E000408B8 /* HostsClub.app */,
+				DA8BB71B3076BF9F000408B8 /* HostsClubTests.xctest */,
+				DA8BB7253076BF9F000408B8 /* HostsClubUITests.xctest */,
+				DAF4E3383076C3F900467F8D /* hostsclub-cli */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAF4E3313076C21700467F8D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA8BB70D3076BF9E000408B8 /* HostsClub */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA8BB72F3076BF9F000408B8 /* Build configuration list for PBXNativeTarget "HostsClub" */;
+			buildPhases = (
+				DA8BB70A3076BF9E000408B8 /* Sources */,
+				DA8BB70B3076BF9E000408B8 /* Frameworks */,
+				DA8BB70C3076BF9E000408B8 /* Resources */,
+				DAF4E34C3076C78100467F8D /* Embed CLI */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAF4E34A3076C66600467F8D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DA8BB7103076BF9E000408B8 /* HostsClub */,
+			);
+			name = HostsClub;
+			packageProductDependencies = (
+				DAF4E3323076C21700467F8D /* HostsClubCore */,
+			);
+			productName = HostsClub;
+			productReference = DA8BB70E3076BF9E000408B8 /* HostsClub.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DA8BB71A3076BF9F000408B8 /* HostsClubTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA8BB7323076BF9F000408B8 /* Build configuration list for PBXNativeTarget "HostsClubTests" */;
+			buildPhases = (
+				DA8BB7173076BF9F000408B8 /* Sources */,
+				DA8BB7183076BF9F000408B8 /* Frameworks */,
+				DA8BB7193076BF9F000408B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA8BB71D3076BF9F000408B8 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DA8BB71E3076BF9F000408B8 /* HostsClubTests */,
+			);
+			name = HostsClubTests;
+			packageProductDependencies = (
+			);
+			productName = HostsClubTests;
+			productReference = DA8BB71B3076BF9F000408B8 /* HostsClubTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DA8BB7243076BF9F000408B8 /* HostsClubUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA8BB7353076BF9F000408B8 /* Build configuration list for PBXNativeTarget "HostsClubUITests" */;
+			buildPhases = (
+				DA8BB7213076BF9F000408B8 /* Sources */,
+				DA8BB7223076BF9F000408B8 /* Frameworks */,
+				DA8BB7233076BF9F000408B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA8BB7273076BF9F000408B8 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DA8BB7283076BF9F000408B8 /* HostsClubUITests */,
+			);
+			name = HostsClubUITests;
+			packageProductDependencies = (
+			);
+			productName = HostsClubUITests;
+			productReference = DA8BB7253076BF9F000408B8 /* HostsClubUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		DAF4E3373076C3F900467F8D /* HostsClubCLI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAF4E33C3076C3F900467F8D /* Build configuration list for PBXNativeTarget "HostsClubCLI" */;
+			buildPhases = (
+				DAF4E3343076C3F900467F8D /* Sources */,
+				DAF4E3353076C3F900467F8D /* Frameworks */,
+				DAF4E3363076C3F900467F8D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				DAF4E3393076C3F900467F8D /* HostsClubCLI */,
+			);
+			name = HostsClubCLI;
+			packageProductDependencies = (
+				DAF4E33F3076C46D00467F8D /* HostsClubCore */,
+				DAF4E3423076C4D200467F8D /* ArgumentParser */,
+			);
+			productName = HostsClubCLI;
+			productReference = DAF4E3383076C3F900467F8D /* hostsclub-cli */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA8BB7063076BF9E000408B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2620;
+				LastUpgradeCheck = 2620;
+				TargetAttributes = {
+					DA8BB70D3076BF9E000408B8 = {
+						CreatedOnToolsVersion = 26.2;
+					};
+					DA8BB71A3076BF9F000408B8 = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = DA8BB70D3076BF9E000408B8;
+					};
+					DA8BB7243076BF9F000408B8 = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = DA8BB70D3076BF9E000408B8;
+					};
+					DAF4E3373076C3F900467F8D = {
+						CreatedOnToolsVersion = 26.2;
+						LastSwiftMigration = 2620;
+					};
+				};
+			};
+			buildConfigurationList = DA8BB7093076BF9E000408B8 /* Build configuration list for PBXProject "HostsClub" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DA8BB7053076BF9E000408B8;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				DAF4E3413076C4D200467F8D /* XCRemoteSwiftPackageReference "swift-argument-parser" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = DA8BB70F3076BF9E000408B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA8BB70D3076BF9E000408B8 /* HostsClub */,
+				DA8BB71A3076BF9F000408B8 /* HostsClubTests */,
+				DA8BB7243076BF9F000408B8 /* HostsClubUITests */,
+				DAF4E3373076C3F900467F8D /* HostsClubCLI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA8BB70C3076BF9E000408B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA8BB7193076BF9F000408B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA8BB7233076BF9F000408B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA8BB70A3076BF9E000408B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA8BB7173076BF9F000408B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA8BB7213076BF9F000408B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAF4E3343076C3F900467F8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DA8BB71D3076BF9F000408B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA8BB70D3076BF9E000408B8 /* HostsClub */;
+			targetProxy = DA8BB71C3076BF9F000408B8 /* PBXContainerItemProxy */;
+		};
+		DA8BB7273076BF9F000408B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA8BB70D3076BF9E000408B8 /* HostsClub */;
+			targetProxy = DA8BB7263076BF9F000408B8 /* PBXContainerItemProxy */;
+		};
+		DAF4E34A3076C66600467F8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAF4E3373076C3F900467F8D /* HostsClubCLI */;
+			targetProxy = DAF4E3493076C66600467F8D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DA8BB72D3076BF9F000408B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = CM5NCZ7PP4;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DA8BB72E3076BF9F000408B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = CM5NCZ7PP4;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		DA8BB7303076BF9F000408B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CM5NCZ7PP4;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.yukiho.HostsClub;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DA8BB7313076BF9F000408B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CM5NCZ7PP4;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.yukiho.HostsClub;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		DA8BB7333076BF9F000408B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CM5NCZ7PP4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.yukiho.HostsClubTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HostsClub.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HostsClub";
+			};
+			name = Debug;
+		};
+		DA8BB7343076BF9F000408B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CM5NCZ7PP4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.yukiho.HostsClubTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HostsClub.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HostsClub";
+			};
+			name = Release;
+		};
+		DA8BB7363076BF9F000408B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CM5NCZ7PP4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.yukiho.HostsClubUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = HostsClub;
+			};
+			name = Debug;
+		};
+		DA8BB7373076BF9F000408B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CM5NCZ7PP4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.yukiho.HostsClubUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = HostsClub;
+			};
+			name = Release;
+		};
+		DAF4E33D3076C3F900467F8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CM5NCZ7PP4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "hostsclub-cli";
+				SKIP_INSTALL = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DAF4E33E3076C3F900467F8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CM5NCZ7PP4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "hostsclub-cli";
+				SKIP_INSTALL = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA8BB7093076BF9E000408B8 /* Build configuration list for PBXProject "HostsClub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA8BB72D3076BF9F000408B8 /* Debug */,
+				DA8BB72E3076BF9F000408B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA8BB72F3076BF9F000408B8 /* Build configuration list for PBXNativeTarget "HostsClub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA8BB7303076BF9F000408B8 /* Debug */,
+				DA8BB7313076BF9F000408B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA8BB7323076BF9F000408B8 /* Build configuration list for PBXNativeTarget "HostsClubTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA8BB7333076BF9F000408B8 /* Debug */,
+				DA8BB7343076BF9F000408B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA8BB7353076BF9F000408B8 /* Build configuration list for PBXNativeTarget "HostsClubUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA8BB7363076BF9F000408B8 /* Debug */,
+				DA8BB7373076BF9F000408B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAF4E33C3076C3F900467F8D /* Build configuration list for PBXNativeTarget "HostsClubCLI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAF4E33D3076C3F900467F8D /* Debug */,
+				DAF4E33E3076C3F900467F8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DAF4E3413076C4D200467F8D /* XCRemoteSwiftPackageReference "swift-argument-parser" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-argument-parser.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.8.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DAF4E3323076C21700467F8D /* HostsClubCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = HostsClubCore;
+		};
+		DAF4E33F3076C46D00467F8D /* HostsClubCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = HostsClubCore;
+		};
+		DAF4E3423076C4D200467F8D /* ArgumentParser */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DAF4E3413076C4D200467F8D /* XCRemoteSwiftPackageReference "swift-argument-parser" */;
+			productName = ArgumentParser;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = DA8BB7063076BF9E000408B8 /* Project object */;
+}
